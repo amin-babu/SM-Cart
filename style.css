@@ -1,0 +1,215 @@
+*{
+  
+  padding: 0;
+  margin: 0;
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-weight: 500;
+}
+
+body{
+  background-color: #F0F2F5;
+}
+
+.profile-container{
+  font-size: 15px;
+}
+
+.cart-container{
+  width: 380px;
+  height: auto;
+  background-color: white;
+  padding: 15px;
+  margin: 10px auto;  
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.head-container > i{
+  font-size: 20px;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.head-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.profile > img{
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 7px;
+  border: 1px solid gray;
+}
+
+.profile-bio > h3{
+  margin-bottom: 5px;
+}
+.profile-bio > p{
+  color: gray;
+  font-size: 12px;
+}
+
+.bio{
+  display: flex;
+  color: gray;
+  font-size: 12px;
+}
+
+.bio > i{
+  font-size: 10px;
+  margin-left: 8px;
+  margin-top: 1px;
+}
+
+/* post container section */
+
+.post-container{
+  margin-top: 15px;
+}
+
+.post-container >h4{
+  margin-bottom: 8px;
+}
+
+
+.post-container > img{
+  width: 100%;
+  padding: 0;
+}
+
+
+/* react section people */
+.reacting-people{
+  margin-top: 4px;
+  position: relative;
+}
+
+.reacting-people  img{
+  height: 14px;
+}
+
+#react-1{
+  position: absolute;
+}
+#react-2{
+  position: absolute;
+  left: 12px;
+}
+#react-3{
+  position: absolute;
+  left: 24px;
+}
+
+#reactor{
+  position: absolute;
+  left: 43px;
+  font-size: 14px;
+  color: gray;
+}
+
+/* Hr1 */
+
+#hr-1{
+  margin-top: 28px;
+  color: gray;
+}
+
+/* react section */
+
+.reaction{
+  display: flex;
+  text-align: center;
+  
+  margin: 0 auto;
+}
+
+.react{
+  display: flex;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 20px;
+  transition: 0.5s;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.849);
+}
+
+.react:hover{
+  background-color: rgb(240, 237, 237);
+}
+
+.react > i{
+  margin-right: 3px;
+}
+
+#hr-2{
+  margin-bottom: 7px;
+}
+
+/* comment section */
+
+.comment-box{
+  display: flex;
+}
+
+.comment-profile{
+  position: relative;
+}
+
+.comment-profile > img{
+  height: 23px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  margin-right: 10px;
+}
+
+.comment-profile > i{
+  font-size: 7px;
+  color: black;
+  background-color: rgb(177, 175, 175);
+  padding: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.comment{
+  position: relative;
+}
+
+.comment > input{
+  width: 330px;
+  padding: 6px 7px;
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  bottom: 1px;
+  outline: none;
+}
+
+.comment-icon{
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  display: flex;
+  left: 275px;
+  font-size: 13px;
+}
+
+.comment-icon >i{
+  margin-left: 8px;
+  color: rgb(65, 59, 59);
+}
